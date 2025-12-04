@@ -15,8 +15,16 @@ Completed Work
         and clear problem formulation.
     -   Data was reviewed for consistency, completeness, and suitability
         for SQL‑based analytics.
+    -   The original dataset presented a disorganized structure with
+        commingled data types, which impeded administrative tasks
+        and negatively impacted the user experience.
+        The data was restructured to address these challenges.
 2.  Business Problem Identification Several logical and relevant
     business problems were identified, including:
+    -   User Query Fulfillment: Addressed the need for rapid execution of
+        specific user inquiries, such as filtering for the cheapest or
+        newest vehicles by brand, or verifying the presence of media
+        (photos) on the site.
     -   Customer Activity Analysis: Determine the most active users to
         understand engagement and optimize outreach.
     -   Performance Insights: Identify products, categories, or services
@@ -28,6 +36,11 @@ Completed Work
     -   Forecasting Needs: Prepare the database for future predictive
         queries handled by the AI agent.
 3.  Database Schema Design
+    -   The source dataset was normalized into
+        specific functional tables: cars, photos, events, users,
+        contact_messages, and roles. This structure facilitates better
+        interaction between administrators and clients while providing
+        a clean, organized view of the information.
     -   All required tables were defined along with their relationships.
     -   A unified ER diagram was created to represent the structure.
     -   The schema ensures referential integrity, normalization, and
